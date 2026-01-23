@@ -6,3 +6,5 @@ This project builds and compares machine learning models to classify songs into 
 A multimodal model combining scaled audio features with TF-IDF lyric representations achieved the best overall performance, demonstrating that acoustic and linguistic information provide complementary signals for genre classification. Hyperparameters were tuned using stratified cross-validation on a representative subset of the data to balance computational efficiency and performance. Model interpretability analyses examined audio feature coefficients, top genre-specific lyric terms, and confusion matrices, revealing meaningful genre characteristics and consistent ambiguities between closely related styles. This project demonstrates an end-to-end machine learning workflow on large real-world data, emphasizing multimodal learning, interpretability, and principled model evaluation.
 
 URL for Streamlit App: https://spotify-genre-classification-dghzck2kg45oj3necqpsxi.streamlit.app/ 
+
+Original Dataset: https://www.kaggle.com/datasets/serkantysz/550k-spotify-songs-audio-lyrics-and-genres
